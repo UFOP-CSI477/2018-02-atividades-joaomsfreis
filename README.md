@@ -5,6 +5,4 @@
 
 Aqui se encontraram as atividades da disciplina de Sistemas Web I.
 
-[Contact and info.](joaomsfreis@gmail.com)
-
 --------------
