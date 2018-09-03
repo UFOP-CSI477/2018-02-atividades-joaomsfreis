@@ -1,0 +1,37 @@
+body{
+    background-color: #f0f8ff;
+}
+
+h1.titulo{
+    color: white;
+    background-color: #2E8B57;
+    text-align: center;
+    padding: 80px;
+    margin-bottom: 0px;
+}
+
+h4{
+    color: #696969;
+    margin-bottom: 5px;
+    margin-top: 10px
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+p{
+    color: #696969;
+    text-align: center;
+    margin-bottom: 0px;
+    margin-top: 5px
+}
+
+p.primeira-linha{
+    margin-top: 300px;
+}
+
+img{
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, .5)
+}
