@@ -1,0 +1,29 @@
+table{
+    width: 100%;
+    margin-top: 100px;
+    margin-bottom: 100px
+}
+
+table,th, td, caption{
+    border-collapse: collapse;
+    border: 1px solid black;
+    text-align: center;
+}
+
+th {
+    background-color: rgba(0, 0, 0, .6); 
+}
+
+caption {
+    background-color:  rgb(48, 92, 48);
+}
+
+tbody tr:hover {
+    background-color: rgba(0, 200, 0, .2);;
+}
+
+tbody tr:nth-child(even){
+    background-color:  rgba(0, 0, 0, .6); 
+    
+}
+

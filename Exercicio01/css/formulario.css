@@ -1,0 +1,11 @@
+form{
+    text-align: center;
+}
+
+label{
+    color: #696969;
+}
+
+input.text{
+    width: 300px;
+}

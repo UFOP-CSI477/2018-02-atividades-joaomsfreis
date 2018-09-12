@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Página de Cadastro</title>
+    <link rel="stylesheet" href="./css/estilo.css">
+    <link rel="stylesheet" href="./css/formulario.css">
+</head>
+<body>
+    <h1 class="titulo">Cadastro</h1>
+    
+    <form method="POST" action="validar.html">
+        <h4>Informações básicas</h4>
+        <label for="nome">Nome: </label>
+        <input class="text" type="text" name="nome">
+        <br>
+        
+        <label for="endereco">Endereco: </label>
+        <input class="text" type="text" name="endereco">
+        <br>
+        
+        <label for="telefone">Telefone: </label>
+        <input class="text" type="text" name="telefone" maxlength="13" placeholder="Utilize o formato: 031 999352499">
+
+        <h4><label for="genero">Gênero</label></h4>
+        <input type="radio" id="feminino" name="genero" value="F">
+        <label for="feminino">Feminino</label>
+        
+        <input type="radio" id="masculino" name="genero" value="M">
+        <label for="masculino">Masculino</label>
+
+        <input type="radio" id="naobinario" name="genero" value="N">
+        <label for="naobinario">Não binário</label>
+        
+        <h4><label for="area">Áreas de interesse</label></h4>
+        <input type="checkbox" id="web" name="area[0]">
+        <label for="web">Desenvolvimento WEB</label>
+        
+        <input type="checkbox" id="bd" name="area[1]">
+        <label for="bd">Banco de Dados</label>
+
+        <input type="checkbox" id="otim" name="area[2]">
+        <label for="otim">Otimização</label>
+        <br>
+        <input type="checkbox" id="ds" name="area[3]">
+        <label for="otim">Desenvolvimento de Software</label>
+
+        <input type="checkbox" id="ia" name="area[4]">
+        <label for="otim">IA</label>
+
+        <h4><label for="cidade">Cidade</label></h4>
+        <select name="cidade">
+            <option value="0">Selecione:</option>
+            <option value="1">João Monlevade</option>
+            <option value="2">Jequeri</option>
+            <option value="3">Ouro Preto</option>
+            <option value="4">Belo Horizonte</option>
+            <option value="5">Ponte Nova</option>
+        </select>
+        
+        <h4><label for="cidade">Dados para a conta</label></h4>
+        <label for="usuario">Usuário: </label>
+        <input class="text" type="text" name="usuario">
+        <br>
+        <label for="senha">Senha: </label>
+        <input class="text" type="password" name="senha">
+
+        <br>
+        <br>
+        <input type="submit" value="Cadastrar">
+        <input type="reset" value="Limpar">
+    </form>
+
+    <a href="./Principal.html"><img src="./img/seta-para-esquerda-menor.png" alt="Voltar para a página inicial."></a>
+    
+</body>
+</html>

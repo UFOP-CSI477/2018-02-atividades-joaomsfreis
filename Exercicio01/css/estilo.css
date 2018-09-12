@@ -4,7 +4,7 @@ body{
 
 h1.titulo{
     color: white;
-    background-color: #2E8B57;
+    background-color: #FFA500;
     text-align: center;
     padding: 80px;
     margin-bottom: 0px;
@@ -14,11 +14,6 @@ h4{
     color: #696969;
     margin-bottom: 5px;
     margin-top: 10px
-}
-
-a {
-    color: white;
-    text-decoration: none;
 }
 
 p{
