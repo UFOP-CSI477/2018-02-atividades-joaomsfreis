@@ -5,4 +5,4 @@
     console.log('Foge do escopo mais abrangente!')
 })()
 
-console.log('Aqui vai o teste...')
+console.log('Aqui vai o teste... vai')
